@@ -8,21 +8,20 @@
     <link rel="stylesheet" href="static/css/extends.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Symbols+2&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 </head>
 <body>
 
     <!-- Navbar -->
     <nav class="navbar">
         <div class="navbar__content max-width mb-0">
-            <a href="/"></a>
-            <img src="static/img/logo.svg" alt="Arthur Antonello">
+            <a href="/"><p id="logoarthur"  alt="Arthur Antonello">ANTONELLO</p></a>
+            
             <ul class="navbar__links">
                 <li><a href="#header">Início</a></li>
                 <li><a href="#about">Sobre</a></li>
                 <li><a href="#skills">Habilidades</a></li>
-                <li><a href="#projects">Contato</a></li>
-                <li><a href="#footer"></a></li>
+                <li><a href="#projects">Projetos</a></li>
+                <li><a href="#footer">Contatos</a></li>
             </ul>
             <div class="navbar__mobile">
                 <img src="static/img/menu.svg" class="burguer" alt="Menu">
@@ -30,8 +29,8 @@
                     <li><a href="#header">Início</a></li>
                     <li><a href="#about">Sobre</a></li>
                     <li><a href="#skills">Habilidades</a></li>
-                    <li><a href="#projects">Contato</a></li>
-                    <li><a href="#footer"></a></li>
+                    <li><a href="#projects">Projetos</a></li>
+                    <li><a href="#footer">Contatos</a></li>
                 </ul>
             </div>
         </div>
@@ -44,6 +43,7 @@
             <p>Desenvolvedor web full-stack com vasta experiência em desenvolvimento de aplicações web escaláveis e responsivas. Sou apaixonado por criar soluções tecnológicas que resolvem problemas reais e que agregam valor aos usuários.
             </p>
             <a href="#about" class="btn btn-primary">Saiba mais</a>
+            <a href="#" class="btn btn-primary">Veja meu currículo!</a>
         </div>
         <div class="header__right">
             <div class="header__image">
@@ -56,25 +56,31 @@
     <!-- Sobre -->
     <section id="about" class="about max-width">
         <div class="about__left">
-            <h2 class="secondary-title">Além do código, quem sou eu?</h2>
+            <h2 class="secondary-title">Quem sou eu?</h2>
             <p>Fique a vontade para me procurar nas redes sociais abaixo e saber mais sobre meu trabalho!</p>
             <ul>
-                <li><a href="#"><img src="static/img/instagram.svg" alt="Instagram"></a></li>
-                <li><a href="#"><img src="static/img/linkedin.svg" alt="Linkedin"></a></li>
-                <li><a href="#"><img src="static/img/facebook.svg" alt="Facebook"></a></li>
+                <li><a href="https://www.linkedin.com/in/arthur-antonello/" target="_blank">
+                    <img src="https://skillicons.dev/icons?i=linkedin" />
+                  </a></li>
+                <li> <a href="mailto:%20contatoarthurantonello@gmail.com" target="_blank">
+                    <img src="https://skillicons.dev/icons?i=gmail" />
+                  </a></li>
+                  <li> <a href="https://www.instagram.com/arthur_antonello/" target="_blank">
+                    <img src="https://skillicons.dev/icons?i=instagram" />
+                  </a></li>
             </ul>
         
         </div>
         <div class="about__right">
             <h3 class="tertiary-title mb-m">
-                Desenvolvedor Fullstack extremamente curioso e inqueto, buscando sempre por melhorias
+                Desenvolvedor Fullstack extremamente curioso e inqueto por novos conhecimentos, buscando sempre por melhorias.
             </h3>
             <p>
                 Atuei como Auxiliar Administrativo aprimorando meus conhecimentos e facilitando soluções nas empresas que participei.
-                Recentemente fiz uma transição em minha carreira para minha área de estudo, para atuar como Desenvolvedor Backend e tenho trabalhado como Freelancer nos últimos 4 meses. Entre minhas especialidades incluem o Python, Django, JavaScript, HTML e CSS.
+                Recentemente fiz uma transição em minha carreira para minha área de estudo, para atuar como <strong>Desenvolvedor Fullstack</strong> e tenho trabalhado como Freelancer nos últimos 4 meses. Entre minhas especialidades incluem o <strong>JavaScript, HTML, CSS, Python e Django.</strong>
             </p>
             <p>
-                Atualmente em busca de uma nova oportunidade para poder ainda mais acrescentar ao mundo melhorias tecnológicas criativas
+                Atualmente em busca de uma nova oportunidade para poder ainda mais acrescentar ao mundo melhorias tecnológicas criativas.
             </p>
         </div>
     </section>
@@ -82,28 +88,28 @@
     <!-- Habilidades -->
     <section id="skills" class="skills">
         <div class="skills__content max-width">
-            <h2 class="tertiary-title">Quais ferramentas uso?</h2>
+            <h2 class="tertiary-title">Quais ferramentas uso?</h2><br>
             <ul>
                 <li class="skills__item">
-                    <div class="image-container">
-                        <img src="static/img/notebook.png" alt="Desenvolvimento Web">
+                    <div>
+                        <img src="https://skillicons.dev/icons?i=js,py,java&theme=dark" alt="Linguagens de Programação"/>
                     </div>
-                    <h3>Desenvolvimento Web</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia aspernatur perferendis rem aliquam quasi quae beatae esse praesentium modi quas corrupti maiores pariatur nemo, vitae explicabo, doloribus dolore aut eaque!</p>
+                    <h3>Linguagens de Programação</h3>
+                    <p>Iniciando com <strong>JavaScript e Java</strong> na faculdade, decidi me aprofundar mais em <strong>JavaScript</strong> pela sua versatilidade entre frontend e backend. Atualmente venho sentindo um apreço por <strong>Python</strong>, conhecendo cada vez mais sua estrutura, por estar adentrando mais o beckend. </p>
                 </li>
                 <li class="skills__item">
-                    <div class="image-container">
-                        <img src="static/img/files.png" alt="Gerenciamento de versões">
-                    </div>
-                    <h3>Gerenciamento de versões</h3>
-                    <p>Vivência em ferramentas de gerenciamento de versão para controle de projetos, como Git e Github</p>
-                </li>
-                <li class="skills__item">
-                    <div class="image-container">
-                        <img src="static/img/notebook.png" alt="Desenvolvimento Web">
+                    <div>
+                        <img src="https://skillicons.dev/icons?i=html,css,sass" alt="Desenvolvimento Web"/>
                     </div>
                     <h3>Desenvolvimento Web</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia aspernatur perferendis rem aliquam quasi quae beatae esse praesentium modi quas corrupti maiores pariatur nemo, vitae explicabo, doloribus dolore aut eaque!</p>
+                    <p>Partindo para a parte mais frontend, gosto de utilizar, além de <strong>HTML</strong> e <strong>CSS</strong>, o <strong>SASS</strong>, tendo em vista sua praticidade na inserção de variáveis e agilidade no código.</p>
+                </li>
+                <li class="skills__item">
+                    <div>
+                        <img src="https://skillicons.dev/icons?i=django,nodejs,github" alt="Frameworks e Gerenciador de Versões"/>
+                    </div>
+                    <h3>Frameworks e Gerenciador de Versões</h3>
+                <p>O completo <strong>Django</strong> tem me auxiliado bastante nos projetos, com sua facilidade de entendimento e aplicabilidade. O <strong>NodeJS</strong> sendo um parceiro direto do <strong>JavaScript</strong> e o indispensável <strong>GitHub</strong> para controle de branchs e repositório.</p>
                 </li>
                 
             </ul>
@@ -113,38 +119,41 @@
     <!-- Projetos -->
     <section id="projects" class="projects max-width">
         <div class="projects__content">
-            <h2 class="secondary-title">Projetos em Destaque</h2>
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Culpa perspiciatis voluptate quaerat illum totam iste, cumque architecto? Optio sed veritatis numquam, quam perferendis, culpa amet quibusdam fuga accusamus at asperiores.</p>
+            <h2 class="secondary-title">Projetos em Destaque</h2><br>
+            <p>Confira abaixo alguns de meus melhores projetos, lembre-se que caso queira pode entrar em contato comigo para falarmos sobre!</p>
         </div>
         <ul>
             <li>
                 <div class="image">
-                    <img src="static/img/task-manager.png" alt="Nome do projeto um">
+                    <img src="static/img/cotacao.png" alt="Projeto de cotações monetárias">
                 </div>
                 <div class="projects__info">
-                    <h3 class="tertiary-title" >Nome do projeto um</h3>
-                    <p>Breve descrição do que se trata o projeto</p>
-                    <a href="#">Link para o projeto</a>
+                    <h3 class="tertiary-title" >Cotações Monetárias</h3>
+                    <p>Um sistema que coleta cotações do dólar em relação ao real, euro
+                        e iene, exibindo-as em um gráfico. O gráfico mostra dados dos
+                        últimos 5 dias baseado na abertura da bolsa NYSE. A API do
+                        Vatcomply, conforme requisição, foi usada para coletar as
+                        cotações, e o backend foi feito em <strong>Python (Django)</strong>. O frontend feito com <strong>HTML, CSS</strong> e <strong>JavaScript</strong>
+                        exibe os gráficos e o projeto foi hospedado no Railway.
+                        </p>
+                    <a style="color: var(--secondary-color)" href="https://cotacao-production.up.railway.app/" target="_blank">Link para o projeto</a>&nbsp;&nbsp;&nbsp;&nbsp;
+                    <a style="color: var(--secondary-color)" href="https://github.com/arthurantonello/Cotacao" target="_blank">Link para o repositório</a>
                 </div>
             </li>
             <li class="projects__reversed-list">
                 <div class="image">
-                    <img src="static/img/ecommerce.png" alt="Nome do projeto dois">
+                    <img src="static/img/aqualert.png" alt="Projeto Aqualert">
                 </div>
                 <div class="projects__info">
-                    <h3 class="tertiary-title" >Nome do projeto dois</h3>
-                    <p>Breve descrição do que se trata o projeto</p>
-                    <a href="#">Link para o projeto</a>
-                </div>
-            </li>
-            <li>
-                <div class="image">
-                    <img src="static/img/delivery.png" alt="Nome do projeto três">
-                </div>
-                <div class="projects__info">
-                    <h3 class="tertiary-title" >Nome do projeto três</h3>
-                    <p>Breve descrição do que se trata o projeto</p>
-                    <a href="#">Link para o projeto</a>
+                    <h3 class="tertiary-title" >Aqualert</h3>
+                    <p>Projeto Aqualert trata-se de um app PWA onde pode-se registrar a
+                        quantidade de água tomada no dia, com foco na meta diária
+                        obtida através do cálculo do peso e da idade do usuário, a
+                        construção foi feita com base no desafio avaliativo proposto na
+                        cadeira de Projeto e Desenvolvimento para Sistemas Móveis
+                        utilizando das tecnologias <strong>Quasar, Vue, JavaScript, HTML e SCSS.</strong></p>
+                    <a style="color: var(--secondary-color)" href="https://aqualertproject.netlify.app/" target="_blank">Link para o projeto</a>&nbsp;&nbsp;&nbsp;&nbsp;
+                    <a style="color: var(--secondary-color)" href="https://github.com/arthurantonello/Aqualert" target="_blank">Link para o repositório</a>
                 </div>
             </li>
         </ul>
@@ -156,14 +165,20 @@
             <h2 class="tertiary-title mb-s">Vamos trocar uma ideia?</h2>
             <p>Nossos conhecimentos podem ser aumentados se trabalhados juntos? Se sim, que tal tornarmos realidade nos conectando?</p>
             <div class="footer__contact mb-m">
-                <span class="mb-m">email@email.com</span>
-                <span>telefoneaqui</span>
+                <a href="mailto:%20contatoarthurantonello@gmail.com" target="_blank"><span class="mb-m">contatoarthurantonello@gmail.com</span></a>
             </div>
-            <ul class="mb-l">
-                <li><a href="#"><img src="static/img/instagram.svg" alt="Instagram"></a></li>
-                <li><a href="#"><img src="static/img/linkedin.svg" alt="Linkedin"></a></li>
-                <li><a href="#"><img src="static/img/facebook.svg" alt="Facebook"></a></li>
+            <ul>
+                <li><a href="https://www.linkedin.com/in/arthur-antonello/" target="_blank">
+                    <img src="https://skillicons.dev/icons?i=linkedin" />
+                  </a></li>
+                <li> <a href="mailto:%20contatoarthurantonello@gmail.com" target="_blank">
+                    <img src="https://skillicons.dev/icons?i=gmail" />
+                  </a></li>
+                  <li> <a href="https://www.instagram.com/arthur_antonello/" target="_blank">
+                    <img src="https://skillicons.dev/icons?i=instagram" />
+                  </a></li>
             </ul>
+            <br>
             <p class="footer__copyright">
                 © 2025 Arthur Antonello. Todos os direitos reservados.
             </p>
